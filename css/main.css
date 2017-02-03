@@ -1,24 +1,25 @@
+@-webkit-keyframes color_change {
+    from { background-color: blue; color: white }
+    to { background-color: red; color: black }
+}
+@-moz-keyframes color_change {
+    from { background-color: blue; color: white }
+    to { background-color: red; color: black }
+}
+@-ms-keyframes color_change {
+    from { background-color: blue; color: white }
+    to { background-color: red; color: black }
+}
+@-o-keyframes color_change {
+    from { background-color: blue; color: white }
+    to { background-color: red; color: black }
+}
+@keyframes color_change {
+    from { background-color: blue; color: white }
+    to { background-color: red; color: black }
+}
+
 #title {
-    @-webkit-keyframes color_change {
-        from { background-color: blue; }
-        to { background-color: red; }
-    }
-    @-moz-keyframes color_change {
-        from { background-color: blue; }
-        to { background-color: red; }
-    }
-    @-ms-keyframes color_change {
-        from { background-color: blue; }
-        to { background-color: red; }
-    }
-    @-o-keyframes color_change {
-        from { background-color: blue; }
-        to { background-color: red; }
-    }
-    @keyframes color_change {
-        from { background-color: blue; }
-        to { background-color: red; }
-    }
     -webkit-animation: color_change 1s infinite alternate;
     -moz-animation: color_change 1s infinite alternate;
     -ms-animation: color_change 1s infinite alternate;
